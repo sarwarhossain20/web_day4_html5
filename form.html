@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style/nav.css">
+    <style>
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="media.html">Media</a></li>
+            <li><a href="semantic.html">Semantic</a></li>
+            <li><a href="form.html">Form</a></li>
+            <li><a href="table.html">Table</a></li>
+        </ul>
+    </nav>
+    <h1>Kadam Alir pithar dokan</h1>
+    <form action="">
+        <label for="name">Your name
+            <input id="name" type="text" placeholder="Your name">
+        </label>
+        <label for="email">Your email
+            <input id="email" type="email" placeholder="Your email">
+        </label>
+        <label for="phone">Your phone
+            <input id="phone" type="number" placeholder="Your number">
+        </label>
+        <fieldset>
+            <legend>Pic one pitha</legend>
+            <label for="chitoi">
+                <input type="radio" name="pitha" id="chitai"> Chitai
+            </label>
+            <label for="vaapa">
+                <input type="radio" name="pitha" id="vaapa"> Vappa
+            </label>
+            <label for="puli">
+                <input type="radio" name="pitha" id="puli"> Puli
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>pic any difference types of vorta</legend>
+            <label for="shorisha">
+                <input type="checkbox" name="vorta" id="shorisha">
+            </label>
+            <label for="shutki">
+                <input type="checkbox" name="vorta" id="shutki">
+            </label>
+            <label for="dal">
+                <input type="checkbox" name="vorta" id="dal">
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>
+                Special instraction
+            </legend>
+            <textarea name="" id="" cols="60" rows="5"></textarea>
+        </fieldset>
+        <input type="reset" value="Reset">
+        <input type="submit" value="Submit">
+    </form>
+</body>
+
+</html>
